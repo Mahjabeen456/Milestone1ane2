@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainDiv">
+     <!-- personal Information  -->
+         <section>
+            <div class="personal">
+                <div>
+                    <h1><span id="name"> Mahjabeen Adil</span></h1>
+                    <h2><span id="jobTitle">Web Developer</span></h2>
+                </div>
+                <img src="myPicture.jpeg" alt="Profile Picture">
+            </div>
+
+            <div class="contact-info">
+                <p class="para"><i class="fa-solid fa-phone"></i> Phone: <span id="phone">03222351397</span></p>
+                <p class="para"><i class="fa-solid fa-envelope"></i> Email: <span id="email">adil mrs42@gamil.com</span></p>
+                <p class="para"><i class="fa-brands fa-linkedin"></i> LinkedIn: <span id="linkedin">Mahjabeen Adil03</span></p>
+            </div>
+        </section> 
+
+           <!-- objective -->
+          <section id="objectiveSec">
+            <h2 class="heading">Objective:</h2>
+            <p class="contpara">"Self-motivated web developer with one year of experience seeking a position as a lead web developer with Next Generation Web Development where I can apply my advanced knowledge of web design with my leadership abilities to meet client needs and exceed their expoctations.</p>
+        </section>  
+        
+           <!-- Education -->
+             <section id="eduSec">
+                <h2 class="heading">Education:</h2>
+                <p class="contpara"><span id="degree">Masters in International Relation</span></p>
+                <p class="contpara"><span id="university">XYZ  University</span>,<span id="gradyear">2010</span></p>
+            </section>  
+
+           <!-- skills -->
+             <section id="skillSec">
+            <h2 class="heading">Skills:</h2>
+            <ul>
+                <li><span id="skill1">Typescript</span></li>
+                <li><span id="skill2">Javescript</span></li>
+                <li><span id="skill3">HTML & CSS</span></li>
+            </ul>
+           </section> 
+
+           <!-- WORK Experience -->
+         <section id="workExpSec" class="work-experience">
+            <h2 class="heading">Work-Experience:</h2>
+            <P class="contpara"><span id="jobTitleExp">Junior Developer</span> at <span id="company">GIAIC</span>, <span id="startYear">2024</span> - <span id="endyear">Present</span></P>
+           </section>
+         </div>
+
+         <div id="btnDiv">
+            <h3>Toggle Sections</h3>
+            <div class="sp">
+                <button id="objectiveBtn" class="btn" data-target="objective">objective</button>
+                <button id="EducatioBbtn" class="btn" data-target="education">Education</button>
+                <button id="SkillsBtn" class="btn" data-target="skills">Skills</button>
+                <button id="WorkExpBtn" class="btn" data-target="workExperience">Work Experience</button>
+            </div>
+         </div>
+   </body>
+<script src="staticResume.js"></script>
+
+</html> 
+
+
